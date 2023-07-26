@@ -1,0 +1,15 @@
+C:\Users\praty\source\repos\CCG\bin\Debug\net7.0\CCG.exe
+C:\Users\praty\source\repos\CCG\bin\Debug\net7.0\CCG.deps.json
+C:\Users\praty\source\repos\CCG\bin\Debug\net7.0\CCG.runtimeconfig.json
+C:\Users\praty\source\repos\CCG\bin\Debug\net7.0\CCG.dll
+C:\Users\praty\source\repos\CCG\bin\Debug\net7.0\CCG.pdb
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.csproj.AssemblyReference.cache
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.AssemblyInfoInputs.cache
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.AssemblyInfo.cs
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.csproj.CoreCompileInputs.cache
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.dll
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\refint\CCG.dll
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.pdb
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\CCG.genruntimeconfig.cache
+C:\Users\praty\source\repos\CCG\obj\Debug\net7.0\ref\CCG.dll
