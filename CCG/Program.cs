@@ -99,7 +99,27 @@ namespace CCG
                     Console.BackgroundColor = ConsoleColor.White;
                     Console.WriteLine(" <OK> ");
                 }
-
+                redrawbtns:
+                if (select == "ok")
+                {
+                    Console.CursorLeft = (Console.WindowWidth / 2 - (Console.WindowWidth / 2 / 2)) + Console.WindowWidth / 2 - (" <Cancel>  <OK>    ").Length;
+                    Console.CursorTop -= 1;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.Write(" <Cancel> ");
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.WriteLine(" <OK> ");
+                }
+                else if (select == "cancel")
+                {
+                    Console.CursorLeft = (Console.WindowWidth / 2 - (Console.WindowWidth / 2 / 2)) + Console.WindowWidth / 2 - (" <Cancel>  <OK>    ").Length;
+                    Console.CursorTop -= 1;
+                    Console.ForegroundColor = ConsoleColor.Black;
+                    Console.BackgroundColor = ConsoleColor.Cyan;
+                    Console.Write(" <Cancel> ");
+                    Console.BackgroundColor = ConsoleColor.White;
+                    Console.WriteLine(" <OK> ");
+                }
                 keyReading:
                 var key = Console.ReadKey(true);
                 if (key.Key == ConsoleKey.Enter)
@@ -123,14 +143,14 @@ namespace CCG
                     if (select == "ok")
                     {
                         select = "cancel";
-                        goto redraw;
+                        goto redrawbtns;
                     }
                 } else if (key.Key == ConsoleKey.RightArrow)
                 {
                     if (select == "cancel")
                     {
                         select = "ok";
-                        goto redraw;
+                        goto redrawbtns;
                     }
                 }
                 else
